@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Banking User Management Portal</title>
+
+    <style>
+        .custom-container {
+            width: 80%; /* Set width to 80% */
+            margin: 0 auto; /* Center the container */
+        }
+        .bg-gradient-custom {
+            background-image: linear-gradient(to right, #213A57, #0B6477,#14919B,#0AD1C8,#45DFB1,#80ED99);
+        }
+
+        .table-alternate-color tbody tr:nth-child(odd) {
+            background-color: white; /* White color for odd rows */
+        }
+        .table-alternate-color tbody tr:nth-child(even) {
+            background-color:#770b0b;
+        }
+    </style>
+
+</head>
+<body class="bg-gradient-custom">
+
+     <div class="text-center fw-bold display-3 text-secondary mt-3">
+         <h1>Banking User Management Portal</h1>
+    </div>
+
+    <div class="container-fluid custom-container">
+
+
+        <form class="row my-3 gy-3" id="todoListForm">
+            <div class="col">
+                <input type="text" placeholder="Enter your name" class="form-control" id="uName">
+            </div>
+
+            <div class="col">
+                <input type="text" placeholder="Enter your ID" class="form-control" id="uID">
+            </div>
+
+            <div class="col">
+                <input type="text" placeholder="Enter your Balance" class="form-control" id="uBal">
+            </div>
+            <div class="col-12 my-2">
+                <button class="btn btn-primary">Add Task</button>
+            </div>
+        </form>
+
+
+   
+
+    <div class="todoContainer" class="mt-4"></div>
+
+
+
+    
+    <!-- <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>ID </th>
+            <th>Balance</th>
+            <th>Actions</th>
+    
+        </tr>
+        <tbody>
+            <tr>
+                <td>user Name</td>
+                <td>user ID</td>
+                <td>user Balance</td>
+                <td>
+                    <button class="btn btn-primary btn-sm">Edit Balance</button>
+                    <button class="btn btn-danger btn-sm">Delete User</button>
+                </td>
+            </tr>
+        </tbody>
+    </table> -->
+    </div>
+
+
+
+    <!-- <div class="text-center fw-bold display-3 text-secondary mt-3">
+         <h1>Banking User Management Portal</h1>
+    </div> -->
+
+    
+      
+    
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+  </body>
+</html>
